@@ -38,9 +38,9 @@ namespace CLSS
     }
 
     /// <summary>
-    /// Takes the element at the specified index number and passes it to the
-    /// specified delegate. Removes that element from the source collection
-    /// afterward.
+    /// Takes the element at the specified index number, removes that element
+    /// from the source collection and passes the removed element to the
+    /// specified delegate.
     /// </summary>
     /// <typeparam name="T">The type of <see cref="IList{T}"/> to remove element
     /// from.</typeparam>
